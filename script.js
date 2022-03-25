@@ -45,6 +45,7 @@ function drawVideoScreen() {
 	const cv = document.querySelector('#myCanvas');
 	if (cv != null) {
 		const dpi = window.devicePixelRatio;
+		console.log('dpi: ' + dpi);
 		const style_height = window
 			.getComputedStyle(cv)
 			.getPropertyValue('height')
