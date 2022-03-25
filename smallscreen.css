@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	--ci-blue: #18a0fb;
+	--ci-grey: #dfdfdf;
+}
+.fa.fa-bars {
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 32pt;
+}
+
+.news {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+article.flexcontainer {
+	width: 150px;
+	margin: 3% auto;
+}
+.aboutuscontainer {
+	display: block;
+	grid-template-columns: 50% 50%;
+	margin: 20px;
+}
+.caption {
+	text-align: justify;
+	width: 150px;
+	margin: 3% 0px;
+}
+.notaboutus {
+	width: 150px;
+	height: 150px;
+}
+main {
+	width: 100%;
+	display: flex;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.brand {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	color: var(--ci-blue);
+}
+p {
+	text-align: justify;
+}
+article {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav__item a {
+	text-decoration: none;
+	display: block;
+	font-family: 'Montserrat';
+	color: var(--ci-blue);
+}
+h1 {
+	margin: 3% 0;
+	font-size: 20pt;
+}
+h2 {
+	margin: 3% 0;
+	font-size: 16pt;
+}
+
+button.inoffensiveButton {
+	z-index: 99;
+	font-size: 2vw;
+	color: white;
+	background: var(--ci-blue);
+	margin-top: 4vw;
+	margin-left: 5vw;
+	width: 16vw;
+	height: 5vw;
+	border: none;
+	border-radius: 0.4vw;
+}
+p.inoffensiveHeadline {
+	z-index: 100;
+	margin-left: 5vw;
+	margin-top: 13vw;
+	font-size: 4vw;
+}
+p.boringnews {
+	width: 300px;
+	padding: 16px;
+	font-size: 16pt;
+}
+
+.inoffensivecontainer {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.inoffensivecontent {
+	height: 50vw;
+	background-color: white;
+}
+.iocanvas {
+	height: 50vw;
+	background-color: var(--ci-grey);
+	background: gold;
+}
+.iocv {
+	width: 100%;
+	height: 100%;
+}
+.links {
+	position: absolute;
+	display: none;
+	width: 100%;
+	padding-left: 16px;
+	background: white;
+	text-decoration: none;
+	display: none;
+	color: var(--ci-blue);
+}
+
+.graphics {
+	display: block;
+	z-index: -100;
+	width: 100%;
+	height: calc(100vw * 0.5625);
+	background: gold;
+}
+
+canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.menulink {
+	font-size: 6vw;
+	text-decoration: none;
+	color: var(--ci-blue);
+}
+ul {
+	list-style: none;
+}
